@@ -1,10 +1,11 @@
-<<<<<<< HEAD
+
 ```
 composer install
 php artisan vendor:publish
 npm install  --registry=https://registry.npm.taobao.org
 npm run dev
-=======
+```
+
 init project 
 ```
 composer install
@@ -35,5 +36,4 @@ docker build --no-cache -t shopex/luban:desktop .
 docker run -it -d -p 127.0.0.1:9050:9050 --name mydesktop  -e ETCD_ADDR=192.168.10.96:2379 shopex/luban:desktop
 docker exec -it mydesktop bash
 
->>>>>>> desktop/master
 ```
